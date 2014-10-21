@@ -21,7 +21,7 @@ describe BankAccount do
       account1.withdraw(50000)
       account1.deposit(500)
       count=account1.numberOfTransactions()
-      expect(count).to eq(5)
+      expect(count).to eq(4)
     end
     it "check changed name" do
     	 account1=BankAccount.new(5000)

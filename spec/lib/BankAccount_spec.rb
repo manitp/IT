@@ -25,8 +25,8 @@ describe BankAccount do
     end
     it "check changed name" do
     	 account1=BankAccount.new(5000)
-    	 new_name = account1.changeName("New Name")
-    	 expect(new_name).to eq("New Name")
+    	 new_name = account1.changeName("Rick")
+    	 expect(new_name).to eq("Rick")
     end
 end
 end

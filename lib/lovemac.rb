@@ -3,7 +3,7 @@ def lovemac(number)
   @word = "";
   @num = 0;
 
-if number ==3 puts "Love";@word = "Love";return @word};
+if number=3 puts "Love";@word = "Love";return @word};
 
 
 end
